@@ -1,0 +1,5 @@
+deta==1.2.0
+plotly==5.17.0
+python-dotenv==1.0.0
+streamlit==1.25.0
+streamlit_option_menu==0.3.6
