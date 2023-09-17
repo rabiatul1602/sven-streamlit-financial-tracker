@@ -5,8 +5,8 @@ import streamlit as st
 
 # load the environment variables
 #load_dotenv(".env")
-#DETA_KEY = os.getenv("DETA_KEY")
-DETA_KEY = st.secrets["auth_key"]
+DETA_KEY = os.getenv("DETA_KEY")
+#DETA_KEY = st.secrets["auth_key"]
 
 # initialize with a project key
 deta = Deta(DETA_KEY)
